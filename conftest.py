@@ -1,0 +1,10 @@
+import pytest
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service as ChromeService
+
+@pytest.fixture
+def driver():
+    driver = webdriver.Chrome(service=ChromeService())
+    driver.maximize_window()
+    yield driver
+    driver.quit()
