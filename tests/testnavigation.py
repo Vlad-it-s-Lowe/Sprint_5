@@ -4,9 +4,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-TEST_EMAIL = "Vlad_Korolev_29_123@yandex.ru"
-TEST_PASSWORD = "dkfl96"
-
 @pytest.fixture
 def login(driver):
     def _login():
