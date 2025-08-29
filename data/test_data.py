@@ -1,2 +1,4 @@
-TEST_EMAIL = "Vlad_Korolev_29_123@yandex.ru"
-TEST_PASSWORD = "dkfl96"
+class UsersTestData:
+    email = 'Vlad_Korolev_29_123@yandex.ru'
+    password = 'dkfl96'
+    username = 'Vlad'
